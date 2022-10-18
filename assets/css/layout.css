@@ -8,6 +8,7 @@
 }
 .row {
   text-align: justify;
+  margin-bottom: 20px;
 }
 .row::after {
   content: "";
@@ -16,7 +17,7 @@
 }
 .col {
   float: left;
-  padding: 0 20px 20px 0;
+  padding: 0 10px;
 }
 
 .col-2 {
