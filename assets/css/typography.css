@@ -5,23 +5,3 @@ h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-bottom: 100px;
 }
-h1::after {
-  content: "\260f";
-  padding-left: 10px;
-}
-
-h1::before {
-  content: "";
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background-color: #3a43e3;
-  margin: 5px;
-  border-radius: 5px;
-  /* padding-right: 10px; */
-}
-p::before {
-  content: "\263b";
-  color: #2cacac;
-  font-size: 2em;
-}
